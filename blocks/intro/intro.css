@@ -15,7 +15,9 @@
 
 @media screen and (min-width: 1280px) {
     .intro {
-        margin-left: 11.5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 984px;
     }
 }
 

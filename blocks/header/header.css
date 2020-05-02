@@ -11,8 +11,9 @@
 
 @media screen and (min-width: 1280px) {
     .header {
-        margin-left: 11.5%;
-        margin-right: 11.5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 984px;
     }
 }
 
@@ -25,7 +26,9 @@
 
 @media screen and (max-width: 425px) {
     .header {
-        margin: 20px 5% 0 5%;
+        margin: 20px auto 0 auto;
+        width: 288px;
+        max-width: 95vw;
     }
 }
 

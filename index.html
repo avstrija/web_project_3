@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>From Portland to Portland</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./Inter Web/inter.css">
-    <link rel="stylesheet" href="./page/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
     <header class="header">
@@ -20,7 +18,9 @@
         <section class="lead">
             <h1 class="lead__title">From Portland to Portland</h1>
             <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-            <img src='./images/lead-mountains.jpg' alt="Black-n-white Mountains"class="lead__image">
+            <div class="lead__image-wrapper">
+                <img src="./images/lead-mountains.jpg" alt="Black-n-white Mountains" class="lead__image">
+            </div>
             <p class="lead__caption">Your journey starts here</p>
         </section>
         <section class="intro">
@@ -40,19 +40,21 @@
                 <li class="intro__list-item"><span class="intro__list-item-heading">Lowest point (feet)</span> -3</li>
             </ul>
         </section>
-        <section class="photo-grid">
-            <img src="images/photo-grid-highway.jpg" alt="Highway" class="photo-grid__item">
-            <img src="images/photo-grid-lake.jpg" alt="Lake" class="photo-grid__item">
-            <img src="images/photo-grid-seagulls.jpg" alt="Seagulls" class="photo-grid__item">
-            <img src="images/photo-grid-boise.jpg" alt="Boise" class="photo-grid__item">
-            <img src="images/photo-grid-fog.jpg" alt="Fog" class="photo-grid__item">
-            <img src="images/photo-grid-valley.jpg" alt="Valley" class="photo-grid__item">
-            <img src="images/photo-grid-pass.jpg" alt="Pass" class="photo-grid__item">
-            <img src="images/photo-grid-twig.jpg" alt="Twig" class="photo-grid__item">
-            <img src="images/photo-grid-clouds.jpg" alt="Clouds" class="photo-grid__item">
-            <img src="images/photo-grid-oasis.jpg" alt="Oasis" class="photo-grid__item">
-            <img src="images/photo-grid-wires.jpg" alt="Wires" class="photo-grid__item">
-            <img src="images/photo-grid-road.jpg" alt="Road" class="photo-grid__item">
+        <section class="gallery">
+            <ul class="photo-grid">
+                <li><img src="images/photo-grid-highway.jpg" alt="Highway" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-lake.jpg" alt="Lake" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-seagulls.jpg" alt="Seagulls" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-boise.jpg" alt="Boise" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-fog.jpg" alt="Fog" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-valley.jpg" alt="Valley" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-pass.jpg" alt="Pass" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-twig.jpg" alt="Twig" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-clouds.jpg" alt="Clouds" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-oasis.jpg" alt="Oasis" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-wires.jpg" alt="Wires" class="photo-grid__item"></li>
+                <li><img src="images/photo-grid-road.jpg" alt="Road" class="photo-grid__item"></li>
+            </ul>
         </section>
         <section class="places">
             <div class="place">
@@ -119,20 +121,23 @@
                 </div>
             </div>
         </section>
-        <a target="_blank" href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__link">
-            <section class="cover"> 
+            <section class="route66"> 
+                <a target="_blank" href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__link"></a>
+                <div class="cover">
                     <h2 class="cover__title">Historic Route 66</h2>
                     <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
+                </div>
+                <a target="_blank" href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__link"></a>
             </section>
         </a>
     </main>
-    <section class="footer">
+    <footer class="footer">
         <ul class="footer__links">
             <li><a target="_blank" href="https://yandex.com/maps" class="footer__link">Maps</a></li>
             <li><a target="_blank" href="https://yandex.com/weather/moscow" class="footer__link">Weather</a></li>
             <li><a target="_blank" href="https://www.any.do/" class="footer__link">Calendar</a></li>
         </ul>
         <p class="footer__copyright">© 2020. Dasha Borisenko-Orlowski</p>
-    </section>
+    </footer>
 </body>
 </html>

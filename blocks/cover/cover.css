@@ -18,8 +18,9 @@
     .cover {
         margin-top: 12px;
         height: 740px;
-        margin-left: 3.7%;
-        margin-right: 3.7%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1184px;
     }
 }
 
@@ -37,9 +38,11 @@
     }
 }
 
-.cover:hover:after {
+.cover:hover::after {
     content: ""; 
     position: absolute;
+    top: 0%;
+    left: 0%;
     width: 100%;
     height: 100%;
     background-color: #2A2C2F;

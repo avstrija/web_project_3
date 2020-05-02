@@ -1,0 +1,28 @@
+.lead__image-wrapper {
+    width: 928px;
+    height: 580px;
+    margin-top: 56px;
+    object-fit: fit;
+}
+
+@media screen and (min-width: 1280px){
+    .lead__image-wrapper {
+        width: 100%;
+        height: 615px;
+        margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead__image-wrapper {
+        width: 100vw;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .lead__image-wrapper {
+        height: 200px;
+        margin-top: 40px;
+    }
+}

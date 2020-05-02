@@ -10,8 +10,9 @@
 
 @media screen and (min-width: 1280px) {
     .footer {
-        margin-left: 3.7%; 
-        margin-right: 3.7%;   
+        margin-left: auto;
+        margin-right: auto;
+        width: 1184px;  
     }
 }
 

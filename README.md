@@ -4,6 +4,7 @@
 * Description
 * Design
 * What's in the code
+* GitHub Pages
 * About the author
 
 **Intro**
@@ -17,6 +18,10 @@ This is a project about traveling across the US. The website is responsive: chec
 **What's in the code**
 
 The CSS is structured in line with BEM methodology. Particular emphasis is put on working with grid containers and minimizing the use of unnecessary divs (check out the Route 66 overlay).
+
+**GitHub Pages**
+
+[See for yourself](https://avstrija.github.io/web_project_3/)
 
 **About the author**
 
