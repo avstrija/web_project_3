@@ -24,3 +24,10 @@
         width: 720px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .lead {
+        width: 288px;
+        max-width: 98vw;
+    }
+}
